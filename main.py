@@ -261,7 +261,7 @@ while True:
     cuadro_login = WebDriverWait(driver, 15) \
         .until(EC.visibility_of_element_located and EC.element_to_be_clickable((By.CLASS_NAME, 'c-user-menu.js-user-menu')))
     cuadro_login = cuadro_login.text
-    if "hmonrabal@" not in cuadro_login:
+    if "NOMBREUSUARIO@" not in cuadro_login: # SE AÑADE NOMBRE DE USUARIO DE PCCOMPONENTES, SIN EL DOMINIO DEL MAIL.
         print("Detectado cierre automático de sesión, volviendo a loguear...")
         # Accediendo a web para login
         login()
