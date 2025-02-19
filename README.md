@@ -33,7 +33,7 @@ Durante 2021, conseguir una tarjeta gráfica a precio razonable se convirtió en
 Clonar este repositorio:
 
 git clone https://github.com/hmonra/PcComRastrillo.git
-cd tu-repo
+cd PcComRastrillo
 
 Instalar las dependencias:
 
